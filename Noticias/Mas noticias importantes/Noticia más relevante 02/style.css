@@ -219,49 +219,6 @@ footer{
     margin: 0;
 }
 
-h2{
-    font-size: 50px;
-    font-family: "LilitaOne";
-    color: #27BA73;
-    margin-left: 60px;
-}
-
-.img_news{
-    display: flex;
-    width: 100%;
-}
-
-.img_news img{
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.img_news a{
-    width: 40%;
-    margin: auto;
-}
-
-.more{
-    background-color: #27BA73;
-    margin: auto;
-    width: 90%;
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 20px;
-}
-
-.more a{
-    text-decoration: none;
-}
-
-.more p{
-    color: #F1FFF8;
-    font-size: 27px;
-    font-family: "LilitaOne";
-    text-align: center;
-}
-
 .button_back{
     background-color: #27BA73;
     width: 6%;
@@ -278,4 +235,41 @@ h2{
     font-size: 20px;
     font-family: "LilitaOne";
     text-align: center;
+}
+
+.content_info{
+    display: block;
+    border-top: #000000 solid 1px;
+}
+
+.content_info h2{
+    text-align: center;
+    color: #000100;
+    font-family: "Lato";
+    font-size: 50px;
+    margin: 60px auto;
+    width: 90%;
+}
+
+.content_info h3{
+    width: 80%;
+    color: #1F1F1F;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.content_info p{
+    width: 70%;
+    color: #1F1F1F;
+    text-align: justify;
+    font-family: "Lato";
+    margin: 5px auto;
+    
+}
+
+.content_info iframe{
+    width: 30%;
+    height: 250px;
+    margin: 20px 35%;
 }

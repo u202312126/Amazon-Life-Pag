@@ -177,6 +177,7 @@ footer{
 }
 
 .text_donation{
+    border-top: #000000 solid 1px;
     background-color: #ffffff;
     padding-bottom: 20px;
 }
@@ -231,9 +232,14 @@ h2{
 }
 
 .img_news img{
-    width: 40%;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.img_news a{
+    width: 40%;
+    margin: auto;
 }
 
 .more{
