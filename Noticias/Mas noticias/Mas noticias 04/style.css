@@ -222,8 +222,10 @@ footer{
 .button_back{
     background-color: #27BA73;
     width: 6%;
+    margin: auto;
     margin-left: 5%;
     border-radius: 5px;
+    height: 30px;
 }
 
 .button_back a{
@@ -235,6 +237,7 @@ footer{
     font-size: 20px;
     font-family: "LilitaOne";
     text-align: center;
+    margin: 5% 0;
 }
 
 .content_info{
@@ -272,4 +275,14 @@ footer{
     width: 30%;
     height: 250px;
     margin: 20px 35%;
+}
+
+.top_button_date{
+    display: flex;
+    width: 100%;
+}
+
+#date_new{
+    font-family: "Lato";
+    padding-right: 8%;
 }

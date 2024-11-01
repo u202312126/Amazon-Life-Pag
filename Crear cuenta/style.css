@@ -89,3 +89,24 @@ label{
     font-family: "LilitaOne";
 }
 
+.terms_check{
+    display: flex;
+}
+
+.terms_check label{
+    font-family: "Lato";
+    font-size: 16px;
+    color: #000000;
+}
+
+.terms_check a{
+    color: #7799FF;
+    text-decoration: underline;
+    font-family: "Lato";
+}
+
+.terms_check input{
+    width: 18px;
+    margin: 0;
+    margin-left: 10%;
+}
